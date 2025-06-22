@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#100f0f,#432661);
+    color: white;
+}
+
+.container {
+    width:90%;
+    max-width:400px ;
+    position: relative;
+}
+
+.container input{
+    width:100%;
+    height:60px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 4px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    background: transparent;
+}
+
+.container button img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+button{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    outline: 0;
+    position: absolute;
+    top: 12.5px;
+    right: 10px;
+}
+
+#message{
+    position: absolute;
+    bottom:-30px;
+    font-size: 15px;
+    display: none;
+}
